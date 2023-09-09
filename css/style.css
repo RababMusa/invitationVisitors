@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    direction: rtl;
+}
+@font-face {
+    font-family: LyonArabicDisplay-Regular;
+    src: url('../fonts/LyonArabicDisplay-Regular-App.ttf');
+}
+@font-face {
+    font-family: AdobeArabic-Regular;
+    src: url('../fonts/AdobeArabic-Regular\ 10.otf');
+}
+@font-face {
+    font-family: LyonArabicDisplay-Black;
+    src: url('../fonts/LyonArabicDisplay-Black-App.ttf');
+}
+@font-face {
+    font-family: LyonArabicDisplay-Bold;
+    src: url('../fonts/LyonArabicDisplay-Bold-App.ttf');
+}
+@font-face {
+    font-family: LyonArabicDisplay-Medium;
+    src: url('../fonts/LyonArabicDisplay-Medium-App.ttf');
+}
+.cover-background{
+    position: relative;
+    height: 660px;
+    max-width: 520px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-cover{
+    min-height: 700px;
+    width: 100%; 
+}
+.cover-strock{
+    height:575px;
+    position: absolute;
+    max-width: 470px;
+    top: 0;
+    /* right: 5%; */
+    background-color: transparent;
+    border: 1.00347006320953px solid #3f748a;
+    margin-top: 10px;
+    padding: 15px;
+}
+.invitation-title{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: LyonArabicDisplay-Regular;
+}
+.text-one,.text-three,.text-four{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.text-one,.text-three{
+    font-family: LyonArabicDisplay-Regular;
+}
+.text-one{
+    font-size: 20px;
+}
+.text-two{
+    text-align: center;
+    color: #E1954C;
+    margin-bottom: 10px;
+    font-family: LyonArabicDisplay-Bold;
+    font-size: 20px;
+}
+.text-four{
+    font-family: LyonArabicDisplay-Bold;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.text-three{
+    font-size: 15px;
+}
+.img-horaizon{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.img-horaizon img{
+    width: 100%;
+    height: auto;
+}
+.invitation-details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.img-details img{
+    width: 18px;
+    height: auto;
+}
+.divDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+.divDetails p{
+    font-family: LyonArabicDisplay-Regular;
+    font-size: 12px;
+}
+.invitaion-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 90%;
+    border: none;
+    padding:8px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: LyonArabicDisplay-Regular;
+}
+.btn-agree{
+    background-color: #387F00 !important;
+}
+.btn-cancel{
+    background-color: #CB5026 !important;
+}
+.text-end{
+    color: #fff;
+    font-family: LyonArabicDisplay-Regular;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.invitaion-btns{
+    margin-bottom: 20px;
+}
+.img-logos{
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+}
+.img-logos img{
+    width: 90%;
+}
+@media print {
+    .cover-background{
+        width: 794px;
+        height: 1123px;
+    }
+    .cover-strock{
+        width: 744px;
+        height: 1033px;
+    }
+}
